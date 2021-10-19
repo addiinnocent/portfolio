@@ -40,11 +40,12 @@
 }
 
 .img-zoom img {
-  transition: transform 1.6s ease;
+  transition: transform 1.4s ease;
+  max-width: 300px;
 }
 
 .img-zoom img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #bamboo {
